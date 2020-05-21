@@ -1,0 +1,24 @@
+{
+    "name": "wbot",
+    "version": "beta",
+    "description": "Discord Bot By Vendetta",
+    "main": "index.js",
+    "dependencies": {
+        "@discordjs/opus": "^0.3.2",
+        "canvas": "^2.6.1",
+        "discord.js": "12.2.0",
+        "ffmpeg-static": "^4.2.1",
+        "fs": "0.0.1-security",
+        "hastebin-gen": "^2.0.5",
+        "moment": "^2.25.3",
+        "self-reload-json": "^0.4.0",
+        "simple-json-formatter": "^1.0.2",
+        "yt-search": "^1.1.2",
+        "ytdl-core": "^2.1.1"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "천마",
+    "license": "GPL 3.0"
+}
