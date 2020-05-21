@@ -1,8 +1,10 @@
 # WBOT
 Discord Bot By Vendetta
 
-#Owner
+Owner
+========
 천마 [Vendetta]#4120
 
-#Discord
+Discord
+==========
 discord.gg/uF9bsPA
