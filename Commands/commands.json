@@ -1,0 +1,801 @@
+{
+    "commands": [
+        {
+            "command": "help",
+            "name": [
+                "도움말",
+                "help"
+            ],
+            "kr": {
+                "name": "도움말",
+                "description": "이 메세지를 출력합니다\n사용법 : $도움말 help"
+            },
+            "en": {
+                "name": "help",
+                "description": "print this message\nhow to use : $help help"
+            },
+            "function": "Common"
+        },
+        {
+            "command": "ping",
+            "name": [
+                "핑",
+                "ping"
+            ],
+            "kr": {
+                "name": "핑",
+                "description": "봇의 속도를 보여드립니다.",
+                "message1": "핑?",
+                "message2": "핑 가져오는중",
+                "message3": "$[유저], 퐁! 봇의속도는 $[속도]ms 입니다!\napi 연결속도는 $[api]ms 입니다!"
+            },
+            "en": {
+                "name": "ping",
+                "description": "Show Bot's speed.",
+                "message1": "ping?",
+                "message2": "ping...",
+                "message3": "$[유저], pong! Bot's ping is $[속도]ms!\napi connecting speed is $[api]ms!"
+            },
+            "function": "Common"
+        },
+        {
+            "command": "avatar",
+            "name": [
+                "프로필",
+                "avatar"
+            ],
+            "kr": {
+                "name": "프로필",
+                "description": "사용자 또는 언급된 사람의 프로필사진을 보여줍니다!\n사용법 : $프로필\n또는 $프로필 @홍길동#1234\n또는 $프로필 514750260032045057"
+            },
+            "en": {
+                "name": "avatar",
+                "description": "Displays the profile picture of the user or person mentioned\nhow to use : $avatar\nor $avatar @Steven#1234\nor $avatar 514750260032045057"
+            },
+            "function": "Common"
+        },
+        {
+            "command": "serverinfo",
+            "name": [
+                "서버정보",
+                "serverinfo"
+            ],
+            "kr": {
+                "name": "서버정보",
+                "description": "서버의 정보를 보여줍니다.",
+                "message1": "서버가 만들어진 날",
+                "message2": "당신이 서버에 접속한날",
+                "message3": "서버 고유 ID",
+                "message4": "서버 이름",
+                "message5": "서버 주인",
+                "message6": "서버 지역",
+                "message7": "채널 수",
+                "message8": "멤버 수",
+                "message9": "유저 수",
+                "message10": "봇 수",
+                "message11": "서버 유저 상태",
+                "message12": "온라인",
+                "message13": "자리 비움",
+                "message14": "다른 용무 중",
+                "message15": "오프라인",
+                "message16": "잠수채널",
+                "message17": "이모지 수",
+                "message18": "역할 수",
+                "message19": "역할들",
+                "message20": "DM을 확인해주세요!"
+            },
+            "en": {
+                "name": "serverinfo",
+                "description": "show serverinfo",
+                "message1": "Server create at",
+                "message2": "You joined at",
+                "message3": "Server ID",
+                "message4": "Server name",
+                "message5": "Server owner",
+                "message6": "Server region",
+                "message7": "Channel size",
+                "message8": "Member size",
+                "message9": "Member(human) size",
+                "message10": "Member(bot) size",
+                "message11": "Server user status",
+                "message12": "Online",
+                "message13": "Idle",
+                "message14": "Dnd",
+                "message15": "Offline",
+                "message16": "Afkchannel",
+                "message17": "Emoji size",
+                "message18": "Role size",
+                "message19": "Roles",
+                "message20": "Please check DM"
+            },
+            "function": "Common"
+        },
+        {
+            "command": "userinfo",
+            "name": [
+                "유저정보",
+                "userinfo"
+            ],
+            "kr": {
+                "name": "유저정보",
+                "description": "유저의 정보를 보여줍니다\n사용법 : $유저정보\n또는 $유저정보 @홍길동#1234\n또는 $유저정보 514750260032045057",
+                "message1": "유저정보",
+                "message2": "DUID",
+                "message3": "닉네임",
+                "message4": "계정 생성일",
+                "message5": "서버접속일",
+                "message6": "봇",
+                "message7": "플레이중",
+                "message8": "아무것도 플레이중이지 않습니다.",
+                "message9": "역할"
+            },
+            "en": {
+                "name": "Userinfo",
+                "description": "Show userinfo\nhow to use : $userinfo\nor $userinfo @Steve#1234\nor $userinfo 514750260032045057",
+                "message1": "Userinfo",
+                "message2": "DUID",
+                "message3": "Nickname",
+                "message4": "Account Created at",
+                "message5": "Server joined at",
+                "message6": "Bot",
+                "message7": "Playing",
+                "message8": "Nothing.",
+                "message9": "Roles"
+            },
+            "function": "Common"
+        },
+        {
+            "command": "linkshorter",
+            "name": [
+                "링크단축",
+                "linkshorter"
+            ],
+            "kr": {
+                "name": "링크단축",
+                "description": "링크를 단축시켜드립니다.\n사용법 : $링크단축 https://koreanbots.cf/bots/518657304795676693",
+                "message1": "**사용법 : $링크단축 링크**",
+                "message2": "**알맞은 링크를 기입해주세요!**",
+                "message3": "링크단축",
+                "message4": "$[사용자]님의 신청된 단축링크",
+                "message5": "[단축된 링크]($[링크])",
+                "message6": "$[사용자]님의 신청된 단축링크주소",
+                "message7": "$[링크]"
+            },
+            "en": {
+                "name": "linkshorter",
+                "description": "We make link short\nHow to use? : $linkshorter https://top.gg/bot/518657304795676693",
+                "message1": "**How to use? : $linkshorter link**",
+                "message2": "**Please fill in the appropriate link!**",
+                "message3": "Link Short",
+                "message4": "$[사용자]Shorted link",
+                "message5": "[Shorted link]($[링크])",
+                "message6": "$[사용자]Shortened link adress",
+                "message7": "$[링크]"
+            },
+            "function": "Common"
+        },
+        {
+            "command": "memo",
+            "name": [
+                "메모",
+                "memo"
+            ],
+            "kr": {
+                "name": "메모",
+                "description": "메모를 저장합니다\n사용법 : $메모 메모\n내용확인 : $메모",
+                "message1": "메모",
+                "message2": "저장된 메모가 없습니다.",
+                "message3": "저장되었습니다."
+            },
+            "en": {
+                "name": "memo",
+                "description": "save memo\nhow to use : $memo say\nContent confirmation : $memo",
+                "message1": "memo",
+                "message2": "memo is not found",
+                "message3": "saved"
+            },
+            "function": "Common"
+        },
+        {
+            "command": "remember",
+            "name": [
+                "기억",
+                "remember"
+            ],
+            "kr": {
+                "name": "기억",
+                "description": "지정한 말에 대해 기억하고 지정한 대답을 합니다!\n사용법 $기억 기억할말 대답할말",
+                "message1": "저장하실 말과 대답을 함께 적어주세요",
+                "message2": "이미 있습니다!",
+                "message3": "저장되었습니다",
+                "message4": "오류가 발생했습니다 ㅠㅠ\n2차시도후에도 오류가 발생시 $[주인]에게 DM 부탁드립니다"
+            },
+            "en": {
+                "name": "remember",
+                "description": "Remember the words you specified and answer them! \n How to use : $remember 'the word what bot remember' 'the answer what bot remember'",
+                "message1": "Please write with the words and answers you would like to save",
+                "message2": "Already there!",
+                "message3": "Has been saved",
+                "message4": "An error occurredT.T\nIf an error occurs after the second attempt, please DM to $[주인]"
+            },
+            "function": "Common"
+        },
+        {
+            "command": "customlist",
+            "name": [
+                "커스텀리스트",
+                "customlist"
+            ],
+            "kr": {
+                "name": "커스텀리스트",
+                "description": "기억기능으로 저장된 내역을 보여줍니다.",
+                "message1": "커스텀 명령어가 없습니다!"
+            },
+            "en": {
+                "name": "customlist",
+                "description": "show customlist what saved by remember command",
+                "message1": "Custom commands is null"
+            },
+            "function": "Common"
+        },
+        {
+            "command": "rps",
+            "name": [
+                "rps",
+                "가위바위보"
+            ],
+            "kr": {
+                "name": "가위바위보",
+                "description": "봇과 가위바위보를 합니다!\n사용법 : $가위바위보 가위",
+                "list1": [
+                    "보! 제가 이겼어요!",
+                    "가위! 당신이 이겼어요!"
+                ],
+                "list2": [
+                    "보! 제가 이겼어요!",
+                    "가위! 당신이 이겼어요!"
+                ],
+                "list3": [
+                    "바위! 제가 이겼어요!",
+                    "보! 당신이 이겼어요!"
+                ],
+                "message1": "가위, 바위, 보",
+                "message2": "당신의 선택",
+                "message3": "저의 선택",
+                "message4": "선택지: 바위, 보, 가위. *사용법: $가위바위보 선택지*",
+                "바위": "바위",
+                "보": "보",
+                "가위": "가위"
+            },
+            "en": {
+                "name": "rps",
+                "description": "Playing Rock Paper Scissors with Bot!\nhow to use : $rps Rock",
+                "list1": [
+                    "Paper! I win!",
+                    "Scissors! You win!"
+                ],
+                "list2": [
+                    "Paper! I win!",
+                    "Scissors! You win!"
+                ],
+                "list3": [
+                    "Rock! I win!",
+                    "Paper! You win!"
+                ],
+                "message1": "Rock, Paper, Scissors!",
+                "message2": "Your choice",
+                "message3": "My choice",
+                "message4": "Options: rock, paper, scissors. * Usage: $rps Option*",
+                "바위": "rock",
+                "보": "paper",
+                "가위": "scissors"
+            },
+            "function": "Game"
+        },
+        {
+            "command": "dice",
+            "name": [
+                "dice",
+                "주사위던지기"
+            ],
+            "kr": {
+                "name": "주사위던지기",
+                "description": "주사위를 던집니다!\n사용법 : $주사위던지기",
+                "message1": "결과는"
+            },
+            "en": {
+                "name": "dice",
+                "description": "Rolling dice!\nhow to use : $dice",
+                "message1": "result is"
+            },
+            "function": "Game"
+        },
+        {
+            "command": "coin",
+            "name": [
+                "coin",
+                "동전던지기"
+            ],
+            "kr": {
+                "name": "동전던지기",
+                "description": "동전은 던집니다!\n사용법 : $동전던지기",
+                "message1": "결과는",
+                "one": "앞면",
+                "two": "뒷면"
+            },
+            "en": {
+                "name": "coin",
+                "description": "flip coin!\nhow to use : $coin",
+                "message1": "result is",
+                "one": "obverse",
+                "two": "back"
+            },
+            "function": "Game"
+        },
+        {
+            "command": "pick",
+            "name": [
+                "pick",
+                "고르기"
+            ],
+            "kr": {
+                "name": "고르기",
+                "description": "랜덤으로 제시해주신 리스트에서 하나를 고릅니다!\n사용법 : $고르기 내용1,내용2",
+                "message1": "결과는",
+                "message2": "내용이 필요합니다.",
+                "message3": "내용은 최소 2가지 이상이어야합니다."
+            },
+            "en": {
+                "name": "pick",
+                "description": "Pick one from the list you presented at random!\nhow to use : $pick pick1,pick2",
+                "message1": "result is",
+                "message2": "Content is required.",
+                "message3": "The content must be at least two."
+            },
+            "function": "Game"
+        },
+        {
+            "command": "deletememory",
+            "name": [
+                "기억삭제",
+                "deletememory"
+            ],
+            "kr": {
+                "name": "기억삭제",
+                "description": "기억 기능으로 저장된 기억을 삭제합니다.\n사용법 : $기억삭제 안녕 테스트",
+                "message1": "당신에게 권한이 없습니다.",
+                "message2": "지울 명령어와 대답을 함께 말해주세요",
+                "message3": "$[args[0]]의 $[args2]가 성공적으로 제거되었습니다!",
+                "message4": "없는 대답입니다.",
+                "message5": "없는 기억입니다.",
+                "message6": "오류가 발생했습니다 ㅠㅠ\n2차시도후에도 오류가 발생시 $[주인]에게 DM 부탁드립니다"
+            },
+            "en": {
+                "name": "deletememory",
+                "description": "delete memory what saved by remember command\nhow to use : $deletememory hello test",
+                "message1": "You can't use it (Permission)",
+                "message2": "Please write with the word and answer you would like to remove",
+                "message3": "$[args[0]] , $[args2] is deleted",
+                "message4": "invaild answer",
+                "message5": "invaild word",
+                "message6": "An error occurredT.T\nIf an error occurs after the second attempt, please DM to $[주인]"
+            },
+            "function": "Manage"
+        },
+        {
+            "command": "logchannels",
+            "name": [
+                "로그채널",
+                "logchannels"
+            ],
+            "kr": {
+                "name": "로그채널",
+                "description": "채널설정으로 저장된 로그채널을 보여줍니다.",
+                "message1": "서버에 설정된 로그채널이 없습니다!",
+                "message2": "DM을 확인해주세요!",
+                "mdc": "메세지삭제",
+                "muc": "메세지수정",
+                "mbc": "메세지다중삭제",
+                "mrr": "메세지반응삭제",
+                "mrra": "메세지반응전체삭제",
+                "mrre": "메세지반응삭제이모지",
+                "mra": "메세지반응추가",
+                "rcc": "역할생성",
+                "ruc": "역할수정",
+                "rdc": "역할삭제",
+                "uuc": "유저업데이트",
+                "guc": "서버업데이트",
+                "icc": "초대링크생성",
+                "idc": "초대링크삭제",
+                "gma": "신규유저",
+                "gmd": "퇴장유저",
+                "gmu": "서버유저업데이트",
+                "wuc": "웹훅",
+                "vsu": "보이스업데이트",
+                "ccc": "채널생성",
+                "cdc": "채널삭제",
+                "cuc": "채널수정",
+                "ubc": "유저밴",
+                "ukc": "유저킥",
+                "all": "전체로그"
+            },
+            "en": {
+                "name": "logchannels",
+                "description": "show logging channels what saved by setchannel command",
+                "message1": "invalid logchannels!",
+                "message2": "Check DM!",
+                "mdc": "messagedelete",
+                "muc": "messageupdate",
+                "mbc": "messagebulkdelete",
+                "mrr": "messagereactionremove",
+                "mrra": "messagereactionremoveall",
+                "mrre": "messagereactionremoveemoji",
+                "mra": "messagereactionadd",
+                "rcc": "rolecreate",
+                "ruc": "roleupdate",
+                "rdc": "roledelete",
+                "uuc": "userupdate",
+                "guc": "serverupdate",
+                "icc": "invitecreate",
+                "idc": "invitedelete",
+                "gma": "guildmemberadd",
+                "gmd": "guildmemberdelete",
+                "gmu": "guildmemberupdate",
+                "wuc": "webhook",
+                "vsu": "voiceupdate",
+                "ccc": "channelcreate",
+                "cdc": "channeldelete",
+                "cuc": "channelupdate",
+                "ubc": "userban",
+                "ukc": "userkick",
+                "all": "all"
+            },
+            "function": "Manage"
+        },
+        {
+            "command": "lang",
+            "name": [
+                "언어설정",
+                "lang"
+            ],
+            "kr": {
+                "name": "언어설정",
+                "description": "서버에 대한 봇의 언어를 설정합니다\n사용법 : $언어설정 kr\n지원언어 : en(영어),kr(한글)",
+                "message1": "이미 언어가 kr로 설정되어있습니다",
+                "message2": "언어가 kr로 설정되었습니다",
+                "message3": "없는 언어입니다.",
+                "message4": "당신에겐 권한이 없습니다."
+            },
+            "en": {
+                "name": "lang",
+                "description": "set bot's lang for server\nhow to use : $lang en\nsupport language : en(English),kr(Korean)",
+                "message1": "language is already set en",
+                "message2": "language is now set en",
+                "message3": "invalid language",
+                "message4": "You can't use it (Permission)"
+            },
+            "function": "Manage"
+        },
+        {
+            "command": "setlog",
+            "name": [
+                "로그설정",
+                "setlog"
+            ],
+            "kr": {
+                "name": "로그설정",
+                "description": "로그채널을 설정합니다\n사용법 : $로그설정 메세지삭제 #채널\n\n로그들 : `채널생성` , `채널삭제` , `채널업데이트` , `신규유저` , `퇴장유저` , `서버유저업데이트` , `서버업데이트` , `보이스업데이트` , `초대링크생성` , `초대링크삭제` , `메세지삭제` , `메세지수정` , `메세지다중삭제` , `메세지반응추가` , `메세지반응삭제` , `메세지반응전체삭제` , `메세지반응삭제이모지` , `유저킥` , `유저밴` , `전체로그`",
+                "message1": "당신은 권한이 없습니다.",
+                "message2": "설정할 로그와 채널을 같이 언급해주세요!",
+                "message3": "[args[0]]는 없는 로그입니다.",
+                "message4": "채널이 잘못 언급되었습니다.",
+                "message5": "올바른 채널을 선택해주세요"
+            },
+            "en": {
+                "name": "setlog",
+                "description": "set logging channel\nhow to use : $setlog messagedelete #channel\n\nlogs : `channelcreate` , `channeldelete` , `channelupdate` , `guildmemberadd` , `guildmemberremove` , `guildmemberupdate` , `guildupdate` , `voiceupdate` , `invitecreate` , `invitedelete` , `messagedelete` , `messagebulkdelete` , `messagereactionadd` , `messagereactionremove` , `messagereactionremoveall` , `messagereactionremoveemoji` , `userkick` , `userban` , `all`",
+                "message1": "You can't use it (Permission)",
+                "message2": "Please write with the channel and log you would like to set",
+                "message3": "[args[0]]is invaild log.",
+                "message4": "invaild channel",
+                "message5": "invaild channel"
+            },
+            "function": "Manage"
+        },
+        {
+            "command": "deletelog",
+            "name": [
+                "로그삭제",
+                "deletelog"
+            ],
+            "kr": {
+                "name": "로그삭제",
+                "description": "서버에 설정된 로그 채널을 초기화합니다\n사용법 : $로그삭제 #채널",
+                "message1": "서버에 해당 로그가 없습니다.",
+                "message2": "해당 로그가 삭제되었습니다."
+            },
+            "en": {
+                "name": "deletelog",
+                "description": "reset logchannel from server\nhow to use : $deletelog #channel",
+                "message1": "invalid log from this server",
+                "message2": "deleted"
+            }
+        },
+        {
+            "command": "autorole",
+            "name": [
+                "자동역할",
+                "autorole"
+            ],
+            "kr": {
+                "name": "자동역할",
+                "description": "서버에 들어올때 자동으로 역할을 부여합니다\n사용법 : $자동역할 역할",
+                "message1": "당신에게 권한이 없습니다.",
+                "message2": "역할을 함께 언급해주세요.",
+                "message3": "없는 역할입니다."
+            },
+            "en": {
+                "name": "autorole",
+                "description": "give role when user join server\nhow to use : $autorole role",
+                "message1": "You can't use it (Permission)",
+                "message2": "Please use it with mention the role",
+                "message3": "invalid role"
+            },
+            "function": "Manage"
+        },
+        {
+            "command": "deleteautorole",
+            "name": [
+                "deleteautorole",
+                "자동역할삭제"
+            ],
+            "kr": {
+                "name": "자동역할삭제",
+                "description": "등록된 자동역할정보를 초기화합니다",
+                "message1": "자동역할이 없습니다.",
+                "message2": "성공적으로 초기화해했습니다."
+            },
+            "en": {
+                "name": "deleteautorole",
+                "description": "initialized autorole",
+                "message1": "invalid autorole",
+                "message2": "success initialized autorole"
+            }
+        },
+        {
+            "command": "cmd",
+            "name": [
+                "cmd",
+                "cmd"
+            ],
+            "kr": {
+                "name": "cmd",
+                "description": "로컬 서버에서 명령어를 커맨드를 사용합니다.\n사용법 : $cmd 명령어\n||근데 이건 왜 아시려는거죵..?||"
+            },
+            "en": {
+                "name": "cmd",
+                "description": "run command from localserver\nhow to use : $cmd command\n||why should you know it..?||"
+            },
+            "function": "Owner"
+        },
+        {
+            "command": "debug",
+            "name": [
+                "debug",
+                "디버그"
+            ],
+            "kr": {
+                "name": "디버그",
+                "description": "코드에 대해 디버깅을 합니다.\n사용법 : $디버그 console.log('console')\n||근데 이건 왜 아시려는거죵..?||"
+            },
+            "en": {
+                "name": "debug",
+                "description": "debugging\nhow to use : $reload command\n||why should you know it..?||"
+            },
+            "function": "Owner"
+        },
+        {
+            "command": "play",
+            "name": [
+                "play",
+                "재생"
+            ],
+            "kr": {
+                "name": "재생",
+                "description": "유튜브에서 곡을 가져와 재생해줍니다.\n사용법 : $재생 노래재목 또는 URL",
+                "message1": "음성채널에서 사용해주시길 바랍니다",
+                "message2": "봇이 이미 다른 통화방에서 사용중입니다.\n$[채널]으로 이동후 사용해주세요",
+                "message3": "명령어와 함께 재생할 영상을 적어주세요",
+                "message4": "$[제목] 을(를) 다음 재생목록에 등록되었습니다.",
+                "message5": "재생중인곡 : $[제목]\n신청자 : $[신청자]",
+                "message6": "모든곡이 재생되어 통화방을 나갑니다.",
+                "message7": "곡을 찾을수 없거나 문제가 발생하였습니다.\n명령어를 사용한 내용을 캡쳐하여 $[제작자]에게 전송해주시길 바랍니다.",
+                "message8": "1~$[수] 중 번호를 적어주세요"
+            },
+            "en": {
+                "name": "play",
+                "description": "play music from youtube\nhow to use : $play song_name or url",
+                "message1": "please use it in the voice channel",
+                "message2": "bot is in another channel.\nplease join $[채널] and use it",
+                "message3": "please use it with song_name or url",
+                "message4": "$[제목] is now added queue",
+                "message5": "now playing : $[제목]\nrequester : $[신청자]",
+                "message6": "all the queue is finish\nleave voice channel",
+                "message7": "invalid video or error.\nplease capture it and send to $[제작자]",
+                "message8": "1~$[수] write number what you want to play"
+            },
+            "function": "Music"
+        },
+        {
+            "command": "skip",
+            "name": [
+                "skip",
+                "스킵"
+            ],
+            "kr": {
+                "name": "스킵",
+                "description": "재생중인 곡을 스킵합니다.\n(곡을 신청한 사람이거나 관리자 권한이 있는 유저만 가능합니다.)",
+                "message1": "음악기능을 사용하는중이 아닙니다.",
+                "message2": "성공적으로 곡을 스킵했습니다.",
+                "message3": "성공적으로 곡을 스킵했습니다.",
+                "message4": "당신은 이 곡을 스킵할수 없습니다."
+            },
+            "en": {
+                "name": "skip",
+                "description": "skip song\n(requester or adminster only can use it)",
+                "message1": "music is now using now",
+                "message2": "success for skip song",
+                "message3": "success for skip song",
+                "message4": "You can't use it"
+            },
+            "function": "Music"
+        },
+        {
+            "command": "stop",
+            "name": [
+                "stop",
+                "종료"
+            ],
+            "kr": {
+                "name": "종료",
+                "description": "모든 곡을 종료후 통화방을 나갑니다.",
+                "message1": "연결된 통화방이 없습니다.",
+                "message2": "$[채널]에서 사용해주세요",
+                "message3": "저는 $[채널1]에 있지 않습니다.\n$[채널2]에서 사용해주세요",
+                "message4": "통화방을 나갔습니다."
+            },
+            "en": {
+                "name": "stop",
+                "description": "stop music and clean queue",
+                "message1": "invalid voice channel",
+                "message2": "please use in $[채널]",
+                "message3": "i'm not join $[채널1]\nplease use it in $[채널2]",
+                "message4": "leave the voice channel"
+            },
+            "function": "Music"
+        },
+        {
+            "command": "queue",
+            "name": [
+                "queue",
+                "재생목록"
+            ],
+            "kr": {
+                "name": "재생목록",
+                "description": "재생목록을 보여줍니다.",
+                "message1": "음악기능을 사용하는중이 아닙니다.",
+                "message2": "현재 재생중인곡 : $[현곡]\n\n신청자 : $[신청자]\n\n영상 업로더 : $[업로더]\n\n링크 : $[링크]",
+                "message3": "재생목록",
+                "message4": "남은 재생목록 : $[수]"
+            },
+            "en": {
+                "name": "queue",
+                "description": "show queue",
+                "message1": "music is now using now",
+                "message2": "now playing : $[현곡]\n\nrequester : $[신청자]\n\nvideo uploader : $[업로더]\n\nlink : $[링크]",
+                "message3": "queue",
+                "message4": "queue length : $[수]"
+            },
+            "function": "Music"
+        },
+        {
+            "command": "volume",
+            "name": [
+                "볼륨",
+                "volume"
+            ],
+            "kr": {
+                "name": "볼륨",
+                "description": "음악의 볼륨을 조절합니다.",
+                "message1": "봇의 볼륨은 $[볼륨]입니다.",
+                "message2": "음악기능이 사용중이지 않은 서버입니다.",
+                "message3": "$[채널]에서 사용해주세요",
+                "message4": "볼륨은 0~200까지만 설정 가능합니다.",
+                "message5": "이미 봇의 볼륨이 $[볼륨]입니다.",
+                "message6": "봇의 볼륨을 $[볼륨1]에서 $[볼륨2]로 수정하였습니다."
+            },
+            "en": {
+                "name": "volume",
+                "description": "set music volume",
+                "message1": "bot's volume is $[볼륨]",
+                "message2": "server is now using muisc now",
+                "message3": "using it in $[채널]",
+                "message4": "volume can set 0~200",
+                "message5": "bot's volume is already $[볼륨]",
+                "message6": "set the bot's volume $[볼륨1] to $[볼륨2]"
+            },
+            "function": "Music"
+        }
+    ],
+    "type": {
+        "util": {
+            "kr": "일반 명령어",
+            "en": "Common Commands"
+        },
+        "game": {
+            "kr": "게임 명령어",
+            "en": "Game Commands"
+        },
+        "manage": {
+            "kr": "서버 관리 명령어",
+            "en": "Server Manage Commands"
+        },
+        "pic": {
+            "kr": "사진 명령어",
+            "en": "Picture Commands"
+        },
+        "owner": {
+            "kr": "제작자 전용 명령어",
+            "en": "For Bot Owner Commands"
+        },
+        "support": {
+            "kr": "문의 명령어",
+            "en": "Support Commands"
+        },
+        "music": {
+            "kr": "음악 명령어",
+            "en": "Music Commands"
+        },
+        "event": {
+            "kr": "이벤트 명령어",
+            "en": "Event Commands"
+        }
+    },
+    "event": {
+        "channelcreate": {},
+        "channeldelete": {},
+        "channelupdate": {},
+        "guildcreate": {},
+        "guilddelete": {},
+        "guildmemberadd": {},
+        "guildmemberremove": {},
+        "guildupdate": {},
+        "invitecreate": {},
+        "invitedelete": {},
+        "messagedelete": {},
+        "messageupdate": {},
+        "rolecreate": {},
+        "roledelete": {},
+        "roleupdate": {},
+        "userupdate": {},
+        "voicestateupdate": {}
+    },
+    "help": {
+        "title": {
+            "kr": "명령어",
+            "en": "commands"
+        },
+        "description": {
+            "kr": "봇 버전 : $[버전]\n사용법 : $도움말 언어설정\n[[문의 서버](http://discord.gg/uF9bsPA)],[제작자 사이트](http://vendetta-team.glitch.me)",
+            "en": "Bot version : $[버전]\nHow to use : $help lang\n[[Support Server](http://discord.gg/uF9bsPA)],[Developer Site](http://vendetta-team.glitch.me)\n만약 한국서버라면 $언어설정 kr 를 사용해주세요!"
+        },
+        "footer": {
+            "kr": "제작자 : $[주인태그]",
+            "en": "Owner : $[주인태그]"
+        },
+        "notfound": {
+            "kr": "$[명령어] (이)라는 명령어는 발견되지 않습니다.",
+            "en": "$[명령어] is not defined"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+const Discord = require('discord.js')
+exports.run = async (client, message, args, lang, me, log, autorole, locale, langage, memo, datas) => {
+    if (!args[0]) return message.reply(locale.commands.find(e => e.name.includes('pick'))[lang].message2)
+    const list = args.join(" ").split(',')
+    if(list.length == 1) return message.reply(locale.commands.find(e => e.name.includes('pick'))[lang].message3)
+    var random = Math.floor(Math.random() * (list.length - 1));
+    console.log(random)
+    embed = new Discord.MessageEmbed()
+        .setColor('#DEB887')
+        .setAuthor(message.author.tag, message.author.displayAvatarURL())
+        .addField(locale.commands.find(e => e.name.includes('pick'))[lang].message1, list[random])
+    message.reply(embed)
+}  
