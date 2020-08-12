@@ -1,3 +1,5 @@
+# outdated
+
 # WBOT
 Discord Bot By Vendetta
 
