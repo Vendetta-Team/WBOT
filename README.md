@@ -1,12 +1,6 @@
-# outdated
+# 이것은 WBOT 개발자버전입니다.
 
-# WBOT
-Discord Bot By Vendetta
+> WBOT 오픈소스
 
-Owner
-========
-천마 [Vendetta]#4120
-
-Discord
-==========
-discord.gg/uF9bsPA
+봇을 개발하고자 하시는 Node.js 사용자 분들을 위한 오픈소스로
+전체 제공이 아닌 일부 오픈을 통해 개발자분들에게 도움을 주고자 만들어진 소스입니다.
