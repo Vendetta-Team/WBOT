@@ -9,9 +9,14 @@
 
 기본적인 js 코드 작성이나
 봇에 명령어 또는 이벤트를 추가하고싶으신 경우 
-["이곳"](./how-to)에서 지침서를 확인하세요.
+[이곳](./how-to)에서 지침서를 확인하세요.
 
 > 개발자 디스코드
 
-봇에 오류가 있나요? [이곳](https://discord.gg/HtEBQ3z6)으로 와서 봇의 오류
+봇에 오류가 있나요? [이곳](https://discord.gg/KH6z8xxrnn)으로 와서 봇의 오류
 또는 궁금점에 대해 질문해주세요!
+
+> 개발자가 봇 제작때 참고하는 사이트
+
+https://discord.js.org/  
+https://discordjs.guide/
