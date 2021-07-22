@@ -1,0 +1,17 @@
+{
+  "name": "wbot-dev",
+  "version": "dev",
+  "description": "Wbot by Cistus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Discord.js","Discordjs.guide","Discord_Bot"],
+  "author": "Cistus",
+  "license": "None",
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js",
+    "moment-timezone": "^0.5.33",
+    "quickmongo": "^3.0.2"
+  }
+}
