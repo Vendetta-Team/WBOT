@@ -7,17 +7,17 @@
 
 ## 목차
 
-[1. 연산자란?](#연산자란?)
-[2. 산술 연산자](#산술-연산자)
-[3. 대입 연산자](#대입-연산자)
-[4. 비교 연산자](#비교-연산자)
-[5. 논리 연산자](#논리-연산자)
+[1. 연산자란?](#연산자란?)  
+[2. 산술 연산자](#산술-연산자)  
+[3. 대입 연산자](#대입-연산자)  
+[4. 비교 연산자](#비교-연산자)  
+[5. 논리 연산자](#논리-연산자)  
 
 
 ### 연산자란?
 
-연산자는 수학과 같이 무언가를 연산하여 결과를 얻어내거나
-값을 지정하는 등 프로그램 제작에서 빠질 수 없는 요소이다.
+연산자는 수학과 같이 무언가를 연산하여 결과를 얻어내거나  
+값을 지정하는 등 프로그램 제작에서 빠질 수 없는 요소이다.  
 연산자의 종류는 크게 4가지가 있다.
 
 연산자 종류|연산자|설명|연산 방향
@@ -57,10 +57,10 @@ js에서의 산술 연산자의 사용법은 매우 간단하다.
 %=|a=3<br/>a%=2<br/>a|1
 \*\*=|a=2<br/>a\*\*=2<br/>a|8
 
-대입 연산자를 할 땐 주의해야 할 사항이 있습니다.
-첫째로 [`예약어`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Lexical_grammar)에 대해서는
-사용할 수 없습니다.
-예약어에 대해서는 [`이곳`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Lexical_grammar)을 클릭하여 공부해주세요.
+대입 연산자를 할 땐 주의해야 할 사항이 있습니다.  
+첫째로 [`예약어`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Lexical_grammar)에 대해서는  
+사용할 수 없습니다.  
+예약어에 대해서는 [`이곳`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Lexical_grammar)을 클릭하여 공부해주세요.  
   
   
-#작성중..
+# 작성중..
