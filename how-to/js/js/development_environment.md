@@ -31,7 +31,9 @@ Node.js에 대한 강좌를 찾아보길 바란다.
   
 Node.js를 설치하는 법은 매우 간단하다.
 먼저 [Node.js의 공식 사이트](https://nodejs.org/ko/)에 접속하자
+  
 ![Node.js Site](./imgs/node.js.org.png "Node.js Site")
+  
 사이트에 접속하면 위와 같은 사진이 우리를 반겨줄 것이다.
 위 사이트에서는 2가지 버전을 다운할 수 있는데
 LTS 버전과 현재 버전이 있다.
@@ -41,19 +43,29 @@ LTS 버전은 장기적으로 안정적인 지원을 통해 보안에 초점을 
 두 버전중 무엇을 사용해도 상관 없지만
 그래도 필자는 공부를 하는 목적이므로 현재버전을 추천한다.
 설치기를 실행한다면 위와 같은 화면이 우리를 반겨줄텐데
-![Node.js Installer](./imgs/node.js_installer.png "Node.js Installer")<br/>
+  
+![Node.js Installer](./imgs/node.js_installer.png "Node.js Installer")
+  
 Next를 누르자
-![Node.js License](./imgs/Node.js_License.png "Node.js License")<br/>
+  
+![Node.js License](./imgs/Node.js_License.png "Node.js License")
+  
 그럼 위와 같이 Node.js에 대한 라이센스 동의서가 뜰텐데 잘 읽어본 뒤 동의후 넘어가자
-![Node.js Path](./imgs/Node.js_path.png "Node.js Path")<br/>
+  
+![Node.js Path](./imgs/Node.js_path.png "Node.js Path")
+  
 그럼 위와 같이 Node.js를 설치할 위치를 물어볼 것이다.
 저곳은 최대한 건들지 않을것을 추천하지만
 만약 C드라이브에 용량이 부족하다면
 D나 E같이 다른 드라이브에 옮기는 것을 추천한다.
-![Node.js Custom](./imgs/node.js_custom.png "Node.js Custom")<br/>
+  
+![Node.js Custom](./imgs/node.js_custom.png "Node.js Custom")
+  
 다음은 위와 같이 커스텀 설치가 가능한 화면이 나오는데
 이것은 부디 건들지 말길 바란다...
-![Node.js Native](./imgs/Node.js_Native.png "Node.js Native")<br/>
+  
+![Node.js Native](./imgs/Node.js_Native.png "Node.js Native")
+  
 그럼 마지막으로 Node.js를 사용하며 개발자들은
 `모듈`이라는 것을 사용하게 되는데
 `모듈에 대한것은 뒤에 더 자세히 다룰것이다.`
@@ -63,7 +75,9 @@ D나 E같이 다른 드라이브에 옮기는 것을 추천한다.
 `필자가 넘어간 이유는 사용하는 모듈들이 이를 대부분 요청하지 않는 것과 설치가 오래 걸리기 때문이지 사용자의 환경에 부정적인 영향을 주는것은 아니다.`
 만약 더욱 깊숙히 공부하고 알아가려고 한다면
 이를 체크후 넘어가는 것이 좋다.
-![Node.js Install](./imgs/Node.js_install.png "Node.js Install")<br/>
+  
+![Node.js Install](./imgs/Node.js_install.png "Node.js Install")
+  
 드디어 모든 설치에 대한 질문이 끝났다.
 이제 설치를 눌러 모든 설치가 될때까지 기다리면 끝이다.
   
@@ -88,11 +102,15 @@ VSC(Visual Studio Code)는 마이크로 소프트에서 제작된 편집기로
 다른 많은 편집기도 많지만
 필자는 비교적 사용이 쉬운 이를 추천한다.
 VSC는 [이곳](https://code.visualstudio.com/docs/?dv=win)에 가면 자동으로 다운이 시작된다.
-![VSC License](./imgs/vsc_license.png "VSC License")<br/>
+  
+![VSC License](./imgs/vsc_license.png "VSC License")
+  
 다운을 시작하면 처음에 위 화면같이
 라이센스에 대한 동의를 구합니다.
 잘 읽어보신뒤 동의를 하시길 바라며
-![VSC Additional Work](./imgs/vsc_additional_work.png "VSC Additional Work")<br/>
+  
+![VSC Additional Work](./imgs/vsc_additional_work.png "VSC Additional Work")
+  
 그럼 다음과 같이 추가 작업에 대해 질문을 하는데
 위 사진과 같이 설정하는 것을 추천합니다.
 이후 설치를 진행하면 끝입니다.
