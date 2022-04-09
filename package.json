@@ -10,7 +10,7 @@
         "ffmpeg-static": "^4.2.1",
         "fs": "0.0.1-security",
         "hastebin-gen": "^2.0.5",
-        "moment": "^2.25.3",
+        "moment": "^2.29.2",
         "self-reload-json": "^0.4.0",
         "simple-json-formatter": "^1.0.2",
         "yt-search": "^1.1.2",
