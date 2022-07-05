@@ -4,7 +4,7 @@
     "description": "Discord Bot By Vendetta",
     "main": "index.js",
     "dependencies": {
-        "@discordjs/opus": "^0.3.2",
+        "@discordjs/opus": "^0.8.0",
         "canvas": "^2.6.1",
         "discord.js": "12.2.0",
         "ffmpeg-static": "^4.2.1",
